@@ -12,3 +12,19 @@ function incrementCounter() {
 	counterElement.textContent=counterValue
 }
 incrementBtn.addEventListener('click',incrementCounter)
+
+// const listElement=document.createElement('a')
+// listElement.href="localhost:3000"
+// // listElement.textContent="visit localhost:3000"
+// document.body.appendChild(listElement)
+
+
+
+
+
+
+
+
+
+
+
