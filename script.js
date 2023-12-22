@@ -1,30 +1,8 @@
-//your JS code here. If required.
 
-const counterElement=document.getElementById('counter')
-const incrementBtn=document.getElementById('incrementBtn')
+const para=document.getElementById("count")
 
-let counterValue=0
-
-function incrementCounter() {
-	alert("un--incremented value: "+counterValue)
-	counterValue++
-
-	counterElement.textContent=counterValue
+function incre() {
+	let count=Number(para.innerText)
+	alert(count)
+	para.innerText=++count
 }
-incrementBtn.addEventListener('click',incrementCounter)
-
-// const listElement=document.createElement('a')
-// listElement.href="localhost:3000"
-// // listElement.textContent="visit localhost:3000"
-// document.body.appendChild(listElement)
-
-
-
-
-
-
-
-
-
-
-
