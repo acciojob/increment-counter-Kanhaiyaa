@@ -1,8 +1,11 @@
 
 const para=document.getElementById("count")
+const btn=document.getElementById("incrementBtn")
 
-function incre() {
-	let count=Number(para.innerText)
-	alert(count)
-	para.innerText=++count
-}
+ btn.addEventListener("click",function(){
+
+	 let count=Number(para.innerText)
+	 alert(count)
+	 para.innerText=++count
+ }) 
+	
